@@ -41,21 +41,30 @@
                 <span class="sr-only">(current)</span>
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Data</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Penjualan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Produksi</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Laporan</a>
-            </li>
-            <li>
-              <a class="nav-item btn tombol active text-white" href="#">Masuk</a>
-            </li>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link font-weight-bold" href="#">Beranda <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="#">Daftar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled font-weight-bold" href="#" tabindex="-1" aria-disabled="true">Kategori</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled font-weight-bold" href="#" tabindex="-1" aria-disabled="true">Penginapan</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold" href="#">Kritik Saran</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+  </div>
           </ul>
         </div>
       </div>
